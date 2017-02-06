@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+
+</head>
+
+<body>
+    <input type="text"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="dist/shortkey.js"></script>
+    <script>         
+        ListenKey.bind("Ctrl", "s", function () { console.log("Ctrl S"); });
+        ListenKey.bind("", "F1", function () { console.log("F1"); });
+        ListenKey.bind("", "F2", function () { console.log("F2"); });
+        ListenKey.bind("", "F3", function () { console.log("F3"); });
+        ListenKey.bind("", "F4", function () { console.log("F4"); });
+        ListenKey.bind("", "F5", function () { console.log("F5"); });
+        ListenKey.bind("", "F6", function () { console.log("F6"); });
+        ListenKey.bind("", "F7", function () { console.log("F7"); });
+        ListenKey.bind("", "F8", function () { console.log("F8"); });
+        ListenKey.bind("", "F9", function () { console.log("F9"); });
+        ListenKey.bind("", "F10", function () { console.log("F10"); });
+        ListenKey.bind("", "F11", function () { console.log("F11"); });
+        ListenKey.bind("", "F12", function () { console.log("F12"); });
+        ListenKey.init();
+    </script>
+</body>
+
+</html>
